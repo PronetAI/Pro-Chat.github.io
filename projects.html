@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>Pronet</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<table id="header" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#ff4848">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="95%" align="center">
+					<tr>
+						<td>
+							<img src="pronet.png" width="120px" height="115px">
+              <font   size="6">
+									 Pronet Corporations
+								</font>
+            </td>
+						<td>
+							<a href="index.html" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									<a href="index.html" class="btn btn-danger">Home</a>
+								</font>
+							</a>
+						</td>
+						<td>
+							|
+						</td>
+						<td>
+							<a href="about-me.html" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									<a href="about-me.html" class="btn btn-danger">About Me</a>
+								</font>
+							</a>
+						</td>
+						<td>
+							|
+						</td>
+						<td>
+							<a href="language.html" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+                  <a href="language.html" class="btn btn-danger">Language Proficiency</a>
+								</font>
+							</a>
+						</td>
+            <td>
+              |
+            </td>
+            <td>
+							<a href="projects.html" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									<a href="projects.html" class="btn btn-danger">Projects</a>
+								</font>
+							</a>
+						</td>
+						<td>
+							|
+						</td>
+             <td>
+							<a href="videos.html" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									<a href="videos.html" class="btn btn-danger">Videos</a>
+								</font>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+
+	<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="side">
+    <h2>ANN-Alpha</h2>
+    <h5>Machine Learning for Microcontrollers</h5>
+    <p>The Pronet Artificial Neural Network is an easy to use and lightweight machine learning algorithm for microcontrollers. Only takes up several kilobytes for a microcontroller. Runs in C++ for Arduinos.</p>
+    <a href="https://github.com/PronetAI/ANN-Alpha">ANN-Alpha Github</a>
+    <div class="fakeimg" style="height:60px;">Light-weight Package</div><br>
+    <div class="fakeimg" style="height:60px;">Microcontroller Friendly</div><br>
+    <div class="fakeimg" style="height:60px;">Supports C++ and Python3</div><br>
+    <h2>Pro-Mod</h2>
+    <h5>Health Advice in Python</h5>
+    <p>Pro-Mod is a program that offers health advice based on your age, weight, and gender. Its also has a MET calculator for people who want to know the intensity of the work they are doing, and it also includes a calorie counter.</p>
+     <a href="https://github.com/PronetAI/Pro-Mod">Pro-Mod Github</a>
+  </div>
+  
+  <div class="main">
+    <h2>PAMOS-Beta + Pronet Computer</h2>
+    <h5>Custom Computer and Operation System</h5>
+    <img src="IMG_1392 2.JPG" width=600px height=400px>
+    <p>
+This is a bootstrap operating system for a bare bone computer I created called the Pronet Computer. All the features for the Pronet computer, includes three LED Control Slots, System information, contrast control, a graphics test for the display and access to an Arduino Nano via the operating system. Simple to access these components via the LCD menu display and its 6 control buttons. For security authentication we have provided a Pronet Security Chip that should be plugged in the board in between the power module and the Arduino Mega 2560 with the small dot faced in the bottom left hand corner, along with the first uppermost pin to the right being already connected to the 220 Ohm Resistor. Along with an easy to use customizable power module with voltage regulators with support 3.3V and 5V outputs.</p>
+    <a href="https://github.com/PronetAI/PAMOS-Beta">PAMOS Github</a>
+    <br>
+    <h2>Pronet Self Driving Car</h2>
+    <h5>Autonomous Car in Pygame with no ML/AI Module</h5>
+    <img src="carself.png" width=1000px height=550px>
+    <p>
+The Pronet Self Driving car is the worlds first autonmous veichle code written in Python3 and uses no machine learning or artifical intelligence modules such as numpy or tensorflow. It can easily navigate obstacales and tough situations with ease, and along with the algoritm we have provided a pygame module based simulator.</p>
+    <a href="https://github.com/PronetAI/Pronet-Self-Driving-Car">Pronet Self Driving Car Github</a>
+  </div>
+</div>
+        <style>
+.project {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.project {
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
+tr:nth-child(even) {
+  background-color: #ff6666;
+}
+</style>
+						</td>
+            <style>
+              .computer1 {
+  border: 8px solid #ff0000;
+}
+            </style>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--About(end)-->
+
+
+	<!--Footer2(start)-->
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#ff4848">
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+						<td width="80%" valign="top">
+              <center>
+							<font color="#000000" size="5">
+								©Copyright 2022 by Pronet Corporations
+								All rights reserved.
+							</font>
+                </center>
+						</td>
+				</table>
+			</td>
+	</table>
+	<!--Footer2(end)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
+
